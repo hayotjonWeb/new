@@ -73,6 +73,7 @@ header .navbar-container .navbar .nav li a{
     font-family: 'Merriweather', serif;
 }
 header .navbar-container .navbar .login{
+
 }
 header .navbar-container .navbar .member{
     text-decoration: none;
@@ -92,9 +93,7 @@ header .navbar-container .navbar .register{
 
 
 
-
-
-@media  (max-width:1024px) {
+@media screen and (min-width:900px) and (max-width:1024px) {
     header{
         max-width:1024px;
     }
@@ -115,16 +114,17 @@ header .navbar-container .navbar .register{
         font-size: 9px;
     }
 }
-@media  (max-width:800px) {
+@media screen and (min-width:600px) and (max-width:899px) {
     header{
-        max-width:800px;
+        max-width:899px;
+        width: 100%;
     }
     header .navbar-container{
-        max-width: 800px;
+        max-width: 899px;
         min-width: 602px;
     }
     header .navbar-container img{
-        max-width: 200px;
+        max-width: 300px;
     }
     header .navbar-container .navbar .menu .nav li a{
         font-size: 9px;
@@ -142,14 +142,14 @@ header .navbar-container .navbar .register{
         display: block;
         cursor: pointer;
         position: absolute;
-        left: 10%;
+        left: 5%;
     }
     
     header .navbar-container .navbar .hamburger:hover{
         color: #7E817E;
     }
     header .navbar-container .navbar .menu {
-        max-width: 800px;
+        max-width: 899px;
         width: 100%;
         min-height: 100vh;
         top: 0%;
@@ -216,33 +216,39 @@ header .navbar-container .navbar .register{
         color: #7E817E;
     }
 }
-@media (max-width:600px){
+@media screen and (min-width:200px) and (max-width:599px) {
     header{
         max-width: 600px;
         position: relative;
+        width: 100%;
         
     }
     header .navbar-container{
         max-width: 600px;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
         /* min-width: 100px; */
     }
     header .navbar-container img{
-        width: 150px ;
+        width: 150px;
     }
     header .navbar-container .navbar{
-        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 10px 10px;
+        position: relative;
 
     }
     header .navbar-container .navbar .hamburger{
         display: block;
         cursor: pointer;
-        position: absolute;
-        left: 25%;
+        /* position: absolute; */
+        /* left: 20%; */
     }
     
     header .navbar-container .navbar .hamburger:hover{
@@ -297,6 +303,9 @@ header .navbar-container .navbar .register{
     }
     header .navbar-container .navbar .menu .nav a:hover{
         color: #0AA424;
+    }
+    header .navbar-container .navbar .login{
+        /* margin-left: 25px; */
     }
     header .navbar-container .navbar .member{
         margin-right: 1px;
@@ -363,8 +372,7 @@ header .center-content h1{
 header .center-content p{
     font-size: 12.5px;
 }
-
-@media  (max-width:1024px){
+@media screen and (min-width:900px) and (max-width:1024px) {
     header .content {
         max-width: 1024px;
         width: 100%;
@@ -373,10 +381,9 @@ header .center-content p{
         font-size: 10px;
     }
 }
-
-@media (max-width:600px){
+@media screen and (min-width:200px) and (max-width:899px) {
     header .content {
-        max-width: 600px;
+        max-width: 899px;
         width: 100%;
     }   
     header .top-content h1{
@@ -640,10 +647,8 @@ header .center-content p{
         max-width: 599px;
         width: 100%;
         padding: 0 10px;
-        border: 1px solid black;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
     }
     .oil .top-oil h1{
         margin-top: 25px;
@@ -657,7 +662,6 @@ header .center-content p{
         width: 100%;
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
     }
     .oil .content-oil .first-part {
         background-color: #ffffff;
