@@ -14,6 +14,9 @@ a{
     font-family: 'Merriweather', serif;
     color: #434343;
 }
+img{
+    object-fit: cover;
+}
 body{
     background-color: #fbfbfb;
     display: flex;
@@ -845,5 +848,125 @@ header .center-content p{
         width: 100%;
     }
 }
-@media screen and (min-width:600px) and (max-width:899px){}
-@media screen and (min-width:200px) and (max-width:599px){}
+@media screen and (min-width:600px) and (max-width:899px){
+    .handcrafted-line{
+        max-width: 899px;
+        width: 100%; 
+        padding: 0% 2%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .handcrafted-line .first-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .handcrafted-line .first-part h1,
+    .handcrafted-line .first-part p{
+        font-size: 20px;
+        text-align: center;
+        color: #2a2a2a;
+        margin-top: 20px;
+    }
+    .handcrafted-line .first-part p{
+        margin-top: 19.4px;
+        max-width: 850px;
+        width: 100%;
+    }
+    .handcrafted-line .first-part img{
+        max-width: 50%;
+        width: 100%;
+        height: 100%;
+        margin-top: 41.3px;
+        object-fit: cover;
+    }
+    .handcrafted-line .second-part img{
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .handcrafted-line .third-part{
+        padding-left: 0;
+        margin-bottom: 50px;
+        align-items: center;
+        
+    }
+    .handcrafted-line .third-part h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .handcrafted-line .third-part p{
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+    } 
+}
+@media screen and (min-width:200px) and (max-width:599px){
+    .handcrafted-line{
+        max-width: 899px;
+        width: 100%; 
+        padding: 0% 2%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .handcrafted-line .first-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .handcrafted-line .first-part h1,
+    .handcrafted-line .first-part p{
+        font-size: 20px;
+        text-align: center;
+        color: #2a2a2a;
+        margin-top: 20px;
+    }
+    .handcrafted-line .first-part p{
+        margin-top: 19.4px;
+        max-width: 850px;
+        width: 100%;
+    }
+    .handcrafted-line .first-part img{
+        max-width: 50%;
+        width: 100%;
+        height: 100%;
+        margin-top: 41.3px;
+        object-fit: cover;
+    }
+    .handcrafted-line .second-part img{
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .handcrafted-line .third-part{
+        padding-left: 0;
+        margin-bottom: 50px;
+        align-items: center;
+        
+    }
+    .handcrafted-line .third-part h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .handcrafted-line .third-part p{
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
