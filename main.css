@@ -1513,3 +1513,236 @@ header .center-content p{
 
     }
 }
+
+
+/* natural */
+.natural{
+    max-width: 1314px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.natural .natural-top{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-bottom: 67px;
+}
+.natural .natural-top h1{
+    text-align: center;
+    font-size: 13.67px;
+    color: #eeeeee;
+    padding: 15px 0;
+    font-weight: normal;
+}
+.natural h1{
+    max-width: 1123px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 26px;
+    font-size: 25.68px;
+    font-weight: normal;
+}
+.natural .natural-content{
+    max-width: 1123px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.natural .natural-content .natural-part{
+    display: flex;  
+}
+
+.natural .natural-content .natural-part .img1 {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 22px;
+}
+.natural .natural-content .natural-part .img1 .natural1{
+    min-width: 100%;
+    width: 489px;
+    height: 685px;
+    object-fit: cover;
+}
+.natural .natural-content .natural-part .img2 {
+    max-width: 100%;
+    width: 225px;
+}
+.natural .natural-content .natural-part .img2 .natural2{
+    /* max-width: 100%; */
+    max-width: 225px;
+    min-height: 338px;
+}
+.natural .natural-content .natural-part .img2 .natural3{
+    max-width: 225px;
+    min-height: 310px;
+    margin-top: 29px;
+}
+.natural .natural-content .natural-second-part .natural-part-content{
+    padding-top: 67px;
+    padding-left: 67px;
+    padding-right: 53px;
+}
+.natural .natural-content .natural-second-part .natural-part-content  h2{
+    font-size: 26.42px;
+}
+.natural .natural-content .natural-second-part .natural-part-content h1{
+    font-size: 12.5px;
+}
+.natural .natural-content .natural-second-part .natural-part-content p{
+    font-size: 12.5px;
+}
+
+.natural .natural-content .natural-second-part .natural-part-content .buttons{
+    padding-top: 21px;
+    padding-bottom: 10px;
+    height: 150px;
+    
+}
+.natural .natural-content .natural-second-part .natural-part-content .buttons .btn-add {
+    font-size: 14.19px;
+    padding: 13px 33.3px;
+    border: 5px solid black;
+    font-weight: normal;
+    color: #eeeeee;
+    background-color: #000000;
+    font-weight: normal;
+    margin-right: 6px;   
+    font-family: 'Merriweather', serif;
+}    
+.natural .natural-content .natural-second-part .natural-part-content .buttons .btn-num{
+    font-size: 26.42px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+}
+
+@media screen and (min-width:900px) and (max-width:1024px){
+    .natural{
+        max-width: 1024px;
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        display: flex;
+        flex-direction: column;   
+    }
+    .natural .natural-top{
+        max-width: 1024px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        margin-bottom: 10%;
+    }
+    .natural .natural-top h1{
+        width: 100%;
+        text-align: center;
+        font-size: 9px;
+        color: #eeeeee;
+        padding: 2% 0;
+        font-weight: normal;
+    }
+    .natural h1{
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 5%;
+        padding-left: 1%;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .natural .natural-content{
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 0 1%;
+    
+    }
+    .natural .natural-content .natural-part .img1 {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 2%;
+    }
+    .natural .natural-content .natural-part .img1 .natural1{
+        min-width: 200px;
+        width: 100%;
+        height: 468px;
+        object-fit: cover;
+    }
+    .natural .natural-content .natural-part .img2 {
+        max-width: 150px;
+        width: 100%;
+    }
+    .natural .natural-content .natural-part .img2 .natural2{
+        /* max-width: 100%; */
+        max-width: 150px;
+        min-height: 200px;
+    }
+    .natural .natural-content .natural-part .img2 .natural3{
+        max-width: 150px;
+        min-height: 200px;
+        margin-top: 5%;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content{
+        padding-top: 10%;
+        padding-left: 2%;
+        padding-right: 1%;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content  h2{
+        font-size: 20px;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content h1{
+        font-size: 9px;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content p{
+        font-size: 9px;
+    }
+    
+    .natural .natural-content .natural-second-part .natural-part-content .buttons{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        height: 150px;
+        
+    }
+    .natural .natural-content .natural-second-part .natural-part-content .buttons .btn-add {
+        font-size: 10px;
+        padding: 2% 4%;
+        border: 1px solid black;
+        font-weight: normal;
+        color: #eeeeee;
+        background-color: #000000;
+        font-weight: normal;
+        margin-right: 1%;   
+        font-family: 'Merriweather', serif;
+    }    
+    .natural .natural-content .natural-second-part .natural-part-content .buttons .btn-num{
+        font-size: 10px;
+        padding-top: 1.5%;
+        padding-bottom: 1.7%;
+        padding-left: 11px;
+        padding-right: 11px;
+        background-color: white;
+        border: 2px solid black;
+        font-weight: normal;
+        font-family: 'Merriweather', serif;
+    }
+    
+}
+
+@media screen and (min-width:200px) and (max-width:899px){
+
+}
