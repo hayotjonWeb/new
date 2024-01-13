@@ -1672,6 +1672,9 @@ header .center-content p{
         padding: 0 1%;
     
     }
+    .natural .natural-content .natural-part  {
+        flex: 3;
+    }
     .natural .natural-content .natural-part .img1 {
         max-width: 100%;
         width: 100%;
@@ -1680,7 +1683,7 @@ header .center-content p{
     .natural .natural-content .natural-part .img1 .natural1{
         min-width: 200px;
         width: 100%;
-        height: 468px;
+        height: 447px;
         object-fit: cover;
     }
     .natural .natural-content .natural-part .img2 {
@@ -1697,10 +1700,16 @@ header .center-content p{
         min-height: 200px;
         margin-top: 5%;
     }
+
+    .natural .natural-content .natural-second-part {
+        max-width: 100%;
+        width: 100%;
+        flex: 1;
+    }
     .natural .natural-content .natural-second-part .natural-part-content{
-        padding-top: 10%;
+        padding-top: 5%;
         padding-left: 2%;
-        padding-right: 1%;
+        padding-right: 2%;
     }
     .natural .natural-content .natural-second-part .natural-part-content  h2{
         font-size: 20px;
@@ -1744,5 +1753,146 @@ header .center-content p{
 }
 
 @media screen and (min-width:200px) and (max-width:899px){
+    .natural{
+        max-width: 899px;
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        display: flex;
+        flex-direction: column;   
+    }
+    .natural .natural-top{
+        max-width: 899px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        margin-bottom: 10%;
+    }
+    .natural .natural-top h1{
+        width: 100%;
+        text-align: center;
+        font-size: 9px;
+        color: #eeeeee;
+        padding: 2% 0;
+        font-weight: normal;
+    }
+    .natural h1{
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 5%;
+        padding-left: 1%;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .natural .natural-content{
+        max-width: 899px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0 1%;
+    
+    }
+    .natural .natural-content .natural-part  {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+    }
+    .natural .natural-content .natural-part .img1 {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 2%;
+    }
+    .natural .natural-content .natural-part .img1 .natural1{
+        max-width: 100%;
+        width: 100%;
+        height: 447px;
+        object-fit: cover;
+        padding: 1%;
+    }
+    .natural .natural-content .natural-part .img2 {
+        max-width: 100%;
+        width: 100%;
+        padding: 1%;
+    }
+    .natural .natural-content .natural-part .img2 .natural2{
+        /* max-width: 100%; */
+        max-width: 100%;
+        width: 100%;
+        min-height: 200px;
+    }
+    .natural .natural-content .natural-part .img2 .natural3{
+        max-width: 100%;
+        width: 100%;
+        min-height: 200px;
+        margin-top: 5%;
+    }
 
+    .natural .natural-content .natural-second-part {
+        max-width: 100%;
+        width: 100%;
+        flex: 1;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content{
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1%;
+        background-color: #eeeeee;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content  h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content h1{
+        font-size: 9px;
+        text-align: center;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content p{
+        font-size: 9px;
+        text-align: center;
+    }
+    
+    .natural .natural-content .natural-second-part .natural-part-content .buttons{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .natural .natural-content .natural-second-part .natural-part-content .buttons .btn-add {
+        font-size: 10px;
+        padding: 2% 4%;
+        border: 1px solid black;
+        font-weight: normal;
+        color: #eeeeee;
+        background-color: #000000;
+        font-weight: normal;
+        margin-right: 1%;   
+        font-family: 'Merriweather', serif;
+        text-align: center;
+    }    
+    .natural .natural-content .natural-second-part .natural-part-content .buttons .btn-num{
+        font-size: 10px;
+        padding-top: 1.5%;
+        padding-bottom: 1.7%;
+        padding-left: 11px;
+        padding-right: 11px;
+        background-color: white;
+        border: 2px solid black;
+        font-weight: normal;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+    }
 }
