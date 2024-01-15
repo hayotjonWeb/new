@@ -1522,7 +1522,8 @@ header .center-content p{
     min-height: 100vh;
     height: 100%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    margin-bottom: 65px;  
 }
 .natural .natural-top{
     max-width: 100%;
@@ -1896,3 +1897,180 @@ header .center-content p{
         text-align: center;
     }
 }
+
+
+/* collection */
+
+.collection{
+    max-width: 1314px;
+    width: 100%;
+    background: url('images/collection.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* padding:  124px 84px 81px 84px; */
+    display: flex;
+    flex-direction: row;
+    min-height: 875px;
+}
+.collection .collection-one{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:  124px 0px 81px 84px;
+}
+
+.collection .collection-one .one-content{
+    /* max-width: 498px; */
+    width: 100%;
+    padding-right: 0px;
+
+}
+.collection .collection-one .one-content h1{
+    font-size: 25.68px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    line-height: 45px;
+}
+.collection .collection-one .one-content form{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+.collection .collection-one .one-content form .email{
+    font-size: 12.5px;
+    max-width: 309px;
+    width: 100%;
+    height: 100%;
+    padding: 16px 20px;
+    border: none;
+    color: #000000;
+    margin: 0;
+}
+.collection .collection-one .one-content form .sign{
+    font-size: 16.67px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 13px 0;
+    max-width: 185px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    
+}
+.collection .collection-one .one-content h2{
+    font-size: 12.5px;
+    margin-top: 14px;
+    
+}
+.collection .collection-one .one-content p{
+    font-size: 12.5px;
+    margin-right: 62px;
+    font-weight: bold;
+
+}
+.collection .collection-two{
+    width: 50%;
+    flex: 1;
+    padding-right: 135px;
+}
+.collection .collection-two .two-content{
+    border-left: 3px solid #000000;
+    padding: 124px 0 98px 63px;
+    
+}
+.collection .collection-two .two-content h1{
+    font-size: 27.66px;
+}
+
+
+@media screen and (min-width:200px) and (max-width:1024px){
+    .collection{
+        max-width: 1024px;
+        width: 100%;
+        background: url('images/collection.jpg');
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        flex-direction: row;
+        min-height: 875px;
+    }
+    .collection .collection-one{
+        flex: 1;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding:  20% 0px 5% 5%;
+    }
+    
+    .collection .collection-one .one-content{
+        max-width: 100%;
+        width: 100%;
+        padding-right: 0px;
+    
+    }
+    .collection .collection-one .one-content h1{
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 5%;
+        line-height: 150%;
+    }
+    .collection .collection-one .one-content form{
+        width: 100%;
+        max-width: 100%;
+        min-width: 150px;
+        display: flex;
+    }
+    .collection .collection-one .one-content form .email{
+        font-size: 10px;
+        min-width: 100px;
+        max-width: 200px;
+        width: 100%;
+        height: 100%;
+        padding: 4% 3%;
+        border: none;
+        color: #000000;
+        margin: 0;
+    }
+    .collection .collection-one .one-content form .sign{
+        font-size: 14px;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 3% 0;
+        max-width: 100px;
+        min-width: 50px;
+        width: 100%;
+        border: none;
+        margin: 0;
+        
+    }
+    .collection .collection-one .one-content h2{
+        font-size: 10px;
+        margin-top: 14px;
+        
+    }
+    .collection .collection-one .one-content p{
+        font-size: 10px;
+        margin-right: 5%;
+        font-weight: bold;
+        margin-top: 2%;
+    
+    }
+    .collection .collection-two{
+        width: 50%;
+        flex: 1;
+        padding-right: 10%;
+    }
+    .collection .collection-two .two-content{
+        border-left: 3px solid #000000;
+        padding: 10% 0 10% 12%;
+        
+    }
+    .collection .collection-two .two-content h1{
+        font-size: 22px;
+    }
+    
+}
+@media screen and (min-width:200px) and (max-width:899px){}
