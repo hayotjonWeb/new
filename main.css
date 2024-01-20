@@ -75,15 +75,20 @@ header .navbar-container .navbar .nav li a{
     font-size: 12.59px;
     text-decoration: none;
     font-family: 'Merriweather', serif;
+    transition: 2s all;
+}
+header .navbar-container .navbar .nav li a:hover{
+    color: #F68D1E;   
 }
 header .navbar-container .navbar .login{
-
+    margin-left: 4px;
 }
 header .navbar-container .navbar .member{
     text-decoration: none;
     font-size: 12.59px;
     font-family: 'Merriweather', serif;
     margin-top: 4px;
+    transition:2s all;
     
 }
 header .navbar-container .navbar .register{
@@ -91,7 +96,17 @@ header .navbar-container .navbar .register{
     font-size: 12.59px;
     font-family: 'Merriweather', serif;
     margin-top: 4px;
+    transition:2s all;
 }
+header .navbar-container .navbar .member:hover{
+    color: #F68D1E;   
+    
+}
+header .navbar-container .navbar .register:hover{
+    color: #F68D1E;   
+}
+
+
 
 
 
@@ -2171,6 +2186,9 @@ footer{
     max-width: 1314px;
     width: 100%;
     background-color: #fbfbfb;
+    padding-bottom: 5%;
+    
+    
 }
 footer .footer-top{
     width: 100%;
@@ -2623,8 +2641,8 @@ footer .footer-content .form-content{
         
     }
     footer .footer-content .footer-form{
-        max-width: 450px;
-        width: 450px;
+        max-width: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex: 1;
@@ -2654,7 +2672,7 @@ footer .footer-content .form-content{
         padding: 4% 4%;
         border: 1px solid #000000;
         background-color: #fbfbfb;
-        margin-bottom: 9px;
+        margin-bottom: 2%;
         color: #000000;
         font-weight: bold;
     }
@@ -2665,21 +2683,21 @@ footer .footer-content .form-content{
         font-size: 11px;
         padding: 4% 4%;
         border: 1px solid #000000;
-        margin-bottom:9px;
+        margin-bottom:2%;
         background-color: #fbfbfb;
     }
     footer .footer-content .footer-form form .register{
         width: 100%;
         font-size: 14px;
         padding: 4% 0;
-        margin-bottom: 22px;
+        margin-bottom: 5%;
         border: none;
         background-color: #000000;
         color: #ffffff;
     }
     
     footer .footer-content h2{
-        font-size: 10x;
+        font-size: 12px;
         font-weight: bold;
         padding-left: 2px;
         text-align: center;
@@ -2689,7 +2707,8 @@ footer .footer-content .form-content{
         font-size: 10px;
         font-weight: bold;
         text-align: center;
-        padding-left: 2px;
+        max-width: 100%;
+        width: 100%;
     
     }
 }
